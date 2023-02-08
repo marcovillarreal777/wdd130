@@ -1,0 +1,28 @@
+body{
+    background-color: #fca6c9;
+}
+h1:hover{
+    color: white;
+}
+
+img{
+    width: 200px;
+}
+
+p{
+    color: white;
+    font-size: 14pt;
+    line-height: 1.5;
+    margin: auto;
+    text-align: center;
+    width: 520px;
+}
+quote{
+    font-style: italic;
+}
+header{
+    
+    margin:0 auto;
+    width: 200px;
+
+}
