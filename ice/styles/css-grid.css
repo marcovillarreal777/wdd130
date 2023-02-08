@@ -1,9 +1,0 @@
-section{
-    display: grid:
-    grid-template-collumns: 1fr 2fr 1fr;
-}
-
-article{
-    background-color: green;
-    border: 1px solid bisque;
-}=
