@@ -8,9 +8,13 @@
 }
 
 /* id selectors*/
+main section img {
+    box-sizing: border-box;
+}
 .home-title {
     font-family: var(--heading-font);
     font-size: 2em;
+    margin-top: 10px;
 }
 #hero-img{
     width: 100%
@@ -66,7 +70,18 @@ main section{
 #background{
     height: 725px;
 }
-
+.card-img{
+    border: 10px solid #98dfc3;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
 /* background colours*/
 
 body{
@@ -83,13 +98,14 @@ header{
 nav a:hover{
     background-color: burlywood;
 }
-.book{
+.book, .join{
     background-color: salmon;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.join{
-    background-color: rgb(149, 149, 240);
-}
+
 .book:hover{
     background-color: lavenderblush;
 }
@@ -149,6 +165,7 @@ h4{
 }
 footer{
     color: rgb(191, 191, 244);
+    margin-top: 200px;
 }
 footer a{
     text-align: center;
