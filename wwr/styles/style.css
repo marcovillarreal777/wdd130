@@ -154,7 +154,7 @@ body{
     padding: 0;
 }
 header{
-    background-color: rgb(191, 138, 240);
+    background-color: rgb(152, 105, 182);
     font-size: 30px;
     font-family: var(--heading-font);
     opacity: 90%;
@@ -166,13 +166,13 @@ nav {
     justify-content: space-around;
 }
 nav a:hover{
-    background-color: rgb(172, 101, 254);
+    background-color: rgb(112, 83, 186);
     border-radius: 10%;
     opacity: 1.4;
     transform: scale(1.1);
 }
 .book, .join{
-    background-color: rgb(51, 34, 63);
+    background-color: rgb(83, 52, 121);
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
