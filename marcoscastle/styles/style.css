@@ -378,3 +378,41 @@ main p{
         height: fit-content;
     }
 }
+
+/* Blogging */
+#rowrow{
+    background-color: #B2AAFA;
+    display: grid;
+    width: 100%;
+    grid-column: 1/10;
+    padding: 20px;
+    margin-bottom: 40px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+.blogblog{
+    background-color: #d8d5f2;
+    margin: 50px;
+    padding: 50px;
+}
+.blogblog img{
+    margin: 50px;
+    padding: 50px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+/* #entry1{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+#entry2{
+    grid-column: 5/7;
+    grid-row: 1;
+}
+#entry3{
+    grid-column: 8/10;
+    grid-row: 1;
+} */
