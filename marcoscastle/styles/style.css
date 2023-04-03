@@ -60,7 +60,7 @@ div {
 }
 /* header stuff */
 header{
-    background-color: #84a0ef;
+    background-color: #748ac8;
     font-size: 20px;
     font-family: var(--heading-font);
     opacity: 90%;
@@ -73,6 +73,7 @@ header{
 nav {
     display: flex;
     justify-content: space-around;
+
 }
 nav a {
     color: #545078;
@@ -87,6 +88,27 @@ nav a:hover{
     transform: scale(1.1);
     text-decoration: underline;
 }
+/* weird buttons */
+.btn {
+    border: 2px solid #dbe4ff;
+    background-color: #748ac8;
+    border-radius: 5px;
+    color: #dbe4ff;
+    padding: 14px 28px;
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform .4s;
+}
+.btn:hover{
+    background-color: #dbe4ff;
+    color: #748ac8;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+/* weird buttons */
 #logo_link{
     padding-top: 5px;
     justify-self: center;
@@ -96,7 +118,6 @@ nav a:hover{
     width: 50px;
     border-radius: 50%;
     transition: transform .2s;
-    margin-right: 10px;
 }
 .icons:hover{
     opacity: .7;
@@ -126,8 +147,8 @@ nav a:hover{
 }
 .largeimage {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin-top: 100px;
     border-radius: 10%;
     transition: transform .5s;
@@ -145,6 +166,9 @@ nav a:hover{
 }
 .bio {
     grid-column: 6/9;
+    padding-bottom: -50px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid black;
 }
 .bio h2{
     font-family: var(--paragraph-font);
@@ -191,3 +215,4 @@ footer a:hover{
     text-decoration: underline;
     color: rgb(0, 0, 0);
 }
+
