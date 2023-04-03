@@ -177,13 +177,16 @@ nav a:hover{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    transition: transform .5s;
 }
 
 .book:hover{
     background-color: rgb(6, 0, 2);
+    transform: scale(1.1);
 }
 .join:hover{
     background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
 }
 #background{
     width: 100%;
