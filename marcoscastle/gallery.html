@@ -7,6 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Website Home Page</title>
         <link rel="stylesheet" href="styles/style.css">
+        <style> 
+            .disable-scrolling{
+                height: 100%;
+                overflow: hidden;
+            }
+        </style>
     </head>
     <body>
         <div id="content">
@@ -23,17 +29,25 @@
                     <a href="gallery.html"><button class="btn gallery" >Gallery</button></a>
                 </nav>
             </Header>
-            <div id="heading">
+            <div class="heading">
                 <h1>
                     Gallery
                 </h1>
             </div>
-            <section class="home-images">
-                <img class="home-images1" src="images/siblings.jpg" alt="siblings">
-                <img class="home-images2" src="images/tacobel.jpg" alt="tacobel">
-                <img class="home-images3" src="images/jules.jpg" alt="jules">
-                <img class="home-images4" src="images/metro.jpg" alt="metro">
-            </section>
+            <main class="gallery-home-grid">
+                <img class="home-images" src="images/siblings.jpg" alt="siblings">
+                <img class="home-images" src="images/tacobel.jpg" alt="tacobel">
+                <img class="home-images" src="images/jules.jpg" alt="jules">
+                <img class="home-images" src="images/metro.jpg" alt="metro">
+                <img class="home-images" src="images/boba.jpg" alt="siblings">
+                <img class="home-images" src="images/fruitypic.jpg" alt="tacobel">
+                <img class="home-images" src="images/IMG_5184.jpeg" alt="jules">
+                <img class="home-images" src="images/jules1.jpg" alt="metro">
+                <img class="home-images" src="images/lime.PNG" alt="siblings">
+                <img class="home-images" src="images/mom.jpg" alt="tacobel">
+                <img class="home-images" src="images/ortho.jpg" alt="jules">
+                <img class="home-images" src="images/steak.jpg" alt="metro">
+            </main>
             <footer>
                 <p>2023 - Marco Villarreal</p>
                 <section class="feet">
@@ -44,6 +58,6 @@
                     <a href="gallery.html">Gallery</a>
                 </section>
             </footer>
-        </div> 
+        </div>  
     </body>
 </html>

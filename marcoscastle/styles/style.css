@@ -90,10 +90,10 @@ nav a:hover{
 }
 /* weird buttons */
 .btn {
-    border: 2px solid #dbe4ff;
+    border: 2px solid #e7edff;
     background-color: #748ac8;
     /* border-radius: 5px; */
-    color: #dbe4ff;
+    color: #e7edff;
     padding: 14px 28px;
     font-family: var(--paragraph-font);
     font-size: 16px;
@@ -103,7 +103,7 @@ nav a:hover{
     transition: transform .5s;
 }
 .btn:hover{
-    background-color: #dbe4ff;
+    background-color: #f0f3fd;
     color: #748ac8;
     /* transform: scale(1.1); */
     text-decoration: underline;
@@ -131,10 +131,12 @@ nav a:hover{
     width: 200px;
     height: 200px;
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
     justify-self: center;
     align-self: center;
+    border-radius: 5px;
 }
 #home-images1 {
     justify-self: center;
@@ -203,7 +205,7 @@ nav a:hover{
 }
 
 body{
-    background: linear-gradient(rgb(255, 255, 255), #e7f3ff);
+    background: linear-gradient(rgb(255, 255, 255), #d5efff);
     font-family: var(--paragraph-font);
     font-size: 22px;
     margin: 0;
@@ -416,3 +418,8 @@ main p{
     grid-column: 8/10;
     grid-row: 1;
 } */
+.gallery-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
