@@ -181,6 +181,7 @@ nav a:hover{
 .bio {
     grid-column: 6/9;
     padding-bottom: -50px;
+    margin-right: 10px;
     margin-bottom: 70px;
     border-bottom: 1px solid black;
 }
@@ -312,4 +313,68 @@ main p{
 #song4{
     grid-column: 1/2;
     grid-row: 1;
+}
+
+
+/* for mobile users */
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    .music-home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .cover{
+        margin: 50px auto;
+        width: 200px;
+        height: 200px;
+        padding-left: -50;
+    }
+    #music-block1{
+        display: block;
+        height: auto;
+    }
+    #music-block2{
+        display: block;
+        height: auto;
+    }
+    #music-block3{
+        display: block;
+        height: auto;
+    }
+    #music-block4{
+        display: block;
+        height: auto;
+    }
+    header{
+        height: fit-content;
+    }
+    #large-image {
+        margin-top: 0;
+    }
+    .heading {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .home-images{
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+        height: fit-content;
+    }
 }
