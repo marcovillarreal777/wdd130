@@ -147,7 +147,7 @@ main section{
 /* background colours*/
 
 body{
-    background: linear-gradient(rgb(255, 255, 255), rgb(202, 186, 240));
+    background: linear-gradient(rgb(255, 255, 255), rgb(142, 236, 208));
     font-family: var(--paragraph-font);
     font-size: 22px;
     margin: 0;

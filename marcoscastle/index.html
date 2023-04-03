@@ -1,69 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website Home Page</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <div id="content">
-        <Header>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="blog.html">Blog</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website Home Page</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <style> 
+            .disable-scrolling{
+                height: 100%;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <Header>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="blog.html">Blog</a>
+                </nav>
                 <a id="logo_link" href="index.html">
-                    <img src="images/logo.jpg" alt="">
+                    <img class="icons"src="images/logo.jpg" alt="">
                 </a>
-                <a href="music.html">Music</a>
-                <a href="gallery.html">Gallery</a>
-            </nav>
-        </Header>
-        <div class="heading">
-            <h1>
-                Home
-            </h1>
-        </div>
-        <main class="home-grid">
-            <section class="largeimage">
-                <img src="images/fruitypic.jpg" alt="fruit">
-            </section>
-            <section class="bio">
-                <h2>
-                    Hi im marco and im from Dallas Texas.
-                </h2>
-            </section>
-            <section class="icons">
-                  <a href="https://www.pinterest.com/markohvill/" target="_blank">
-                    <img src="images/pinterest_icon.png" alt="pinterest_icon" />
-                  </a>
-                  <a href="https://www.instagram.com/onyourm__arckck/" target="_blank">
-                    <img src="images/instagram_icon.png" alt="instagram icon" />
-                  </a>
-                  <a href="https://open.spotify.com/artist/03j7SAhX1uEeXSK41mo73r?si=3Lf-TvMuRlSvSQ1McPhQJA" target="_blank">
-                    <img src="images/spotify_icon.png" alt="spotify_icon">
-                  </a>
-                  <a href="https://music.apple.com/us/artist/fishing/1629598290" target="_blank">
-                    <img src="images/apple_icon.png" alt="apple_icon">
-                  </a>
-            </section>
-            <section class="home-images">
-                <img id="home-images1" src="images/siblings.jpg" alt="siblings">
-                <img id="home-images2" src="images/tacobel.jpg" alt="tacobel">
-                <img id="home-images3" src="images/jules.jpg" alt="jules">
-                <img id="home-images4" src="images/metro.jpg" alt="metro">
-            </section>
-        </main>
-        <footer>
-            <p>2023 - Marco Villarreal</p>
-            <section class="feet">
-                <a href="site-plan.html">About</a>
-                <a href="index.html">Home</a>
-                <a href="gallery.html">Gallery</a>
-            </section>
-        </footer>
-    </div>  
-</body>
+                <nav>
+                    <a href="music.html">Music</a>
+                    <a href="gallery.html">Gallery</a>
+                </nav>
+            </Header>
+            <div class="heading">
+                <h1>
+                    Home
+                </h1>
+            </div>
+            <main class="home-grid">
+                <section id="largeimage1">
+                    <img class="largeimage" src="images/room.jpg" alt="fruit">
+                </section>
+                <section class="bio">
+                    <h2>
+                        I'm Marco Villarreal i'm 18 years old, i'm from Midlothian Texas. I am currently a computer science major at BYU Idaho. I really enjoy working out, going on walks and, playing Super Smash Bros. I am interested in film, games and especially music. I produce and release music in my free time and you can check that and my socials out below, and you can look at my blog and music history above.
+                    </h2>
+                </section>
+                <section id="icons1">
+                    <a href="https://www.pinterest.com/markohvill/" target="_blank">
+                        <img class="icons" src="images/pinterest_icon.png" alt="pinterest_icon" />
+                    </a>
+                    <a href="https://www.instagram.com/onyourm__arckck/" target="_blank">
+                        <img class="icons" src="images/instagram_icon.png" alt="instagram icon" />
+                    </a>
+                    <a href="https://open.spotify.com/artist/03j7SAhX1uEeXSK41mo73r?si=3Lf-TvMuRlSvSQ1McPhQJA" target="_blank">
+                        <img class="icons" src="images/spotify_icon.png" alt="spotify_icon">
+                    </a>
+                    <a href="https://music.apple.com/us/artist/fishing/1629598290" target="_blank">
+                        <img class="icons" src="images/apple_icon.png" alt="apple_icon">
+                    </a>
+                </section>
+                <section id ="home-images1">
+                    <img class="home-images" src="images/siblings.jpg" alt="siblings">
+                    <img class="home-images" src="images/tacobel.jpg" alt="tacobel">
+                    <img class="home-images" src="images/jules.jpg" alt="jules">
+                    <img class="home-images" src="images/metro.jpg" alt="metro">
+                </section>
+            </main>
+            <footer>
+                <p>2023 - Marco Villarreal</p>
+                <section class="feet">
+                    <a href="site-plan.html">About</a>
+                    <a>-</a>
+                    <a href="index.html">Home</a>
+                    <a>-</a>
+                    <a href="gallery.html">Gallery</a>
+                </section>
+            </footer>
+        </div>  
+    </body>
 </html>
