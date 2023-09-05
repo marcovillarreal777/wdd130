@@ -180,6 +180,7 @@ nav a:hover{
     opacity: .9;
     transform: scale(1.4);
 }
+
 .bio {
     grid-column: 6/9;
     padding-bottom: -50px;
